@@ -1,0 +1,1203 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+ul.navbar-nav {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+img.w {
+  width: 214px;
+}
+.navbar-collapse {
+  padding-left: 190px !important;
+  padding-right: 15px;
+
+}
+.navbar-brand {
+  float: left;
+  height: 68px !important;
+  padding: 0px 0px !important;
+  font-size: 18px;
+  line-height: 20px;
+}
+.boxshadow {
+  box-shadow: 0 3px 3px rgb(29 28 28 / 19%);
+  color: #ffff;
+}
+/* 
+.navvitem .nav-link {
+  font-size: 30px;
+  color: green;
+} */
+
+
+
+.-icon_headings {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+}
+
+
+
+p.three {
+  color: #787878;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.-icon_headings {
+  text-align: left;
+  display: flex;
+  gap: 25px;
+  font-size: 40px;
+  color: #20A057;
+}
+
+.D {
+  color: BLACK;
+}
+
+.b {
+  color: green;
+}
+
+
+.me {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+
+
+
+.ten {
+  font-size: 15px;
+  color: green;
+  text-align: left;
+  font-weight: bold;
+}
+
+.m {
+  font-weight: bold;
+  color: green;
+}
+
+.text_bookyourappointment {
+  font-weight: bold;
+  text-align: left;
+}
+
+
+.text_bookyourappointment a {
+  cursor: pointer;
+  text-align: left !important;
+  color: green !important;
+  text-decoration: none !important;
+}
+
+
+ul.MENU_class_text {
+  padding: 0%;
+  list-style: none;
+  line-height: 2.7;
+  color: gray;
+}
+
+.low {
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+}
+
+
+
+
+.custommm {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+
+.bbc {
+  font-size: 17px;
+  color: gray;
+}
+
+.new {
+  font-weight: 500;
+  font-size: 15px;
+  color: gray;
+}
+
+img.logoright {
+  color: green;
+  font-weight: bold;
+  line-height: 1.9;
+  margin-right: 32px;
+  width: 3%;
+}
+
+.inner_block_allcontent {
+  text-align: left;
+}
+
+p.logos {
+  color: gray;
+  font-size: 17px;
+}
+
+
+.mb {
+  border: 1px solid green;
+  width: 40px;
+  text-align: center;
+}
+
+.mn {
+  margin-bottom: 20px;
+  color: #444444;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+.content {
+  text-align: -webkit-center;
+}
+
+h4.title {
+  font-family: "Poppins", serif;
+  color: #444;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+
+
+
+
+
+
+
+
+.jh {
+  padding: 8px;
+  background-color: gray;
+}
+
+
+
+
+
+img.vcr {
+  width: 50px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #131722;
+  background-color: #f7f8fd;
+  /* padding: 100px 50px; */
+}
+
+h1 {
+  text-align: center;
+  margin-block-end: 2.5rem;
+}
+
+
+.stock-ticker {
+  background-color: #00923F;
+  font-size: 15px;
+  padding-block: 8px;
+  border-block: 1px solid;
+  overflow: hidden;
+  user-select: none;
+  --gap: 20px;
+  display: flex;
+  gap: var(--gap);
+  color: white;
+}
+
+.stock-ticker ul {
+  list-style: none;
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+
+  animation: scroll 20s linear infinite;
+}
+
+.stock-ticker:hover ul {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+.stock-ticker ul:first-child {
+  /* background-color: yellow; */
+}
+
+.stock-ticker ul:last-child {
+  /* background-color: pink; */
+}
+
+.stock-ticker .company,
+.stock-ticker .price {
+  font-weight: bold;
+}
+
+.stock-ticker .price {
+  margin-inline: 4px;
+}
+
+/* .stock-ticker .plus::before {
+  content: "↑";
+}
+
+.stock-ticker .minus::before {
+  content: "↓";
+} */
+
+
+
+
+.navbar {
+
+  margin-bottom: 0 !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-title-color: ;
+  --bs-card-subtitle-color: ;
+  --bs-card-border-width: var(--bs-border-width);
+  --bs-card-border-color: var(--bs-border-color-translucent);
+  /* --bs-card-border-radius: var(--bs-border-radius); */
+  --bs-card-box-shadow: ;
+  /* --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width))); */
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: var(--bs-body-bg);
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  color: var(--bs-body-color);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  /* border-radius: var(--bs-card-border-radius ); */
+}
+
+
+
+.month {
+  color: gray;
+}
+
+.inner_textiamge {
+  height: 762px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+element.style {
+  width: 200px;
+}
+
+
+
+.fixer {
+  width: 50%;
+}
+
+
+.bg_color {
+  background-color: #f6f7f5;
+}
+
+
+.ppp {
+  text-transform: lowercase;
+}
+
+
+.fixer {
+
+  width: 100%;
+}
+
+.round {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  color: green;
+  background-color: #ffffff;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 63px;
+  /* font-size: 20px; */
+  border-radius: 35px;
+}
+
+ul.number.list {
+  list-style: none;
+}
+
+
+.parainnertext {
+  line-height: 25px;
+  font-size: 16px;
+  color: gray;
+}
+
+.round:hover {
+  background-color: green;
+  color: white;
+}
+
+li.mmm {
+  margin-bottom: 40px;
+  gap: 20px;
+  display: flex;
+}
+
+.para_headingsinnerimagetext {
+  text-align: left;
+}
+
+
+.hhhhh {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Poppins", serif;
+  color: #444444;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 27px;
+}
+
+
+h3.headingthree {
+  margin-top: 20px;
+  color: #444444;
+  margin-bottom: 35px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.textbox {
+  text-align: left;
+}
+
+
+.cool {
+  letter-spacing: 1px;
+
+
+
+
+  font-size: 17px;
+  color: green;
+  font-weight: 600;
+}
+
+
+
+
+
+ul.marker-list {
+  line-height: 2.5;
+  padding: 0%;
+  list-style: none;
+  color: gray;
+  font-weight: 500;
+  /* font-family: inherit; */
+}
+
+
+
+.inner_block_allcontent {
+  transition: 0.2s;
+  border: 5px solid #f6f7f5;
+  padding: 30px;
+  background-color: #fff;
+  text-align: left;
+}
+
+
+.servicebox_iocn {
+  color: green;
+  font-size: 50px;
+}
+
+.inner_block_allcontent:hover {
+  border: 5px solid green;
+  transition: 0.2s;
+}
+
+p.ch {
+  padding-top: 10px;
+  line-height: 25px;
+  font-size: 15px;
+  color: gray;
+}
+
+li.u {
+  line-height: 1.7;
+}
+
+.service-card {
+  color: #444;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+h5.service-card.pt-3:hover {
+  color: #00923F;
+}
+
+
+.doctore-banner {
+  background-image: url(image/online-appointment-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  opacity: 1;
+
+}
+
+
+h1.dr\._heading {
+  font-weight: 500;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+
+.box-number {
+  font-weight: 700;
+  font-size: 40px;
+  color: #00923F;
+
+
+}
+
+
+
+
+
+
+.shortcodebox-progress {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.box-text {
+  padding-left: 20px;
+  text-align: left;
+}
+
+
+
+.hhh {
+  color: #fdfdfd;
+  line-height: 24px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p.chh {
+  color: white;
+  font-size: 15px;
+}
+
+
+.textleft {
+  text-align: right;
+}
+
+
+.text1 {
+  font-size: 36px;
+  font-family: math;
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.doctorname {
+  padding: 15px 10px;
+}
+
+.text2 {
+
+  color: #f2f2f2;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Poppins", serif;
+}
+
+.text_txt {
+  color: gray;
+}
+
+.doctornameall {
+  font-size: 25px;
+  font-weight: bold;
+  color: #444;
+  font-family: sans-serif;
+}
+
+.doctorpossition {
+  color: #00923f;
+}
+
+
+button.btn.widtth {
+  width: 160px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50px;
+}
+
+
+.roundall2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+
+
+.conten {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.bigheading {
+  font-family: 'Poppins', sans-serif !important;
+  /* font-weight: 600; */
+  line-height: 23px;
+  margin: 0;
+  font-size: 15px;
+  /* font-weight: 600; */
+}
+.HHHJJ {
+  width: 60%;
+}
+
+.Blog {
+  font-size: 26px;
+  font-weight: 600;
+  color: #444;
+  padding-bottom: 9px;
+  margin: 0;
+}
+
+
+
+.ko {
+  font-weight: 600px;
+  text-align: left;
+  gap: 14px;
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #787878;
+}
+
+.letf {
+  color: gray;
+  font-size: 17px;
+  text-align: justify;
+}
+
+
+.cool_logo {
+  color: green;
+}
+
+.l_logo.pb-2 {
+  font-weight: 700;
+  color: #444;
+}
+
+.Banner_contact-us {
+  background-image: url(image/contact-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.maps {
+  margin-bottom: 22px;
+  padding: 0 80px;
+  height: 21px;
+  width: 170px;
+  background-color: green;
+}
+
+
+button.btn.AnAppointments {
+  width: 255px;
+}
+
+
+.roundimage {
+  text-align: left;
+  display: flex;
+  margin-bottom: 21px;
+  gap: 30px;
+}
+
+
+
+.Google {
+  line-height: 27px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #787878;
+  font-weight: 400;
+}
+
+.jj {
+  text-align: justify;
+}
+
+
+
+.formd {
+  height: 378px;
+  width: 80%;
+  padding: 46px;
+  position: absolute;
+  margin-top: -485px;
+  background-color: #0000007d;
+  left: 170px;
+}
+
+
+.btn {
+  height: 50px !important;
+  border-radius: 42px !important;
+}
+
+/* ==========================================Tabs Carousal ================================  */
+
+
+.btn {
+  font-weight: 0 !important;
+  padding: 6px 20px !important;
+  font-family: sans-serif !important;
+  font-size: 15px !important;
+}
+
+
+
+
+* {
+  box-sizing: border-box
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  /* border: 1px solid #ccc; */
+  /* background-color: #f1f1f1; */
+  width: 100%;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  border-color: #f6f7f5;
+  height: 200px;
+  display: block;
+  color: black;
+  padding: 22px 49px !important;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: green;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: green;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  /* border: 1px solid #ccc; */
+  width: 100%;
+  border-left: none;
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+
+.aallicon {
+  margin-bottom: 15px;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  background-color: #FFFFFF;
+  border-radius: 45px;
+  line-height: 85px;
+  font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery-title {
+  font-size: 36px;
+  color: #444;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #5e5e5e;
+}
+
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #42B32F;
+  margin-bottom: 30px;
+
+}
+
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #42B32F;
+
+}
+
+.btn-default:active .filter-button:active {
+  background-color: #42B32F;
+  color: white;
+}
+
+.port-image {
+  width: 100%;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
+
+
+
+
+.btn {
+  font-weight: 600 !important;
+  padding: 6px 20px !important;
+  font-family: sans-serif !important;
+  font-size: 15px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .formd {
+
+    display: none;
+}
+
+
+
+.tab button {
+
+   padding: 22px 211px ;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+
+  .formd {
+
+    display: none;
+}
+
+
+
+.tab button {
+
+ color: gray;
+padding: 22px 209px !important;
+
+}
+
+
+
+.inner_textiamge {
+ 
+  height: 350px;
+
+}
+
+
+
+.textbox {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.textleft {
+  text-align: center;
+}
+.text1 {
+  font-size: 36px;
+  font-family: math;
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.mb-5 {
+  margin-bottom: 1rem!important;
+}
+.shortcodebox-progress {
+  margin-bottom: 20px;
+text-align: center;
+}
+
+
+
+h1.dr\._heading {
+  
+  padding: 0%;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.py-5 {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+}
+
+
+.text_txt {
+  font-size: 22px;
+
+}
+}
+.fix {
+  /* background-color: red; */
+  height: 905px;
+}
+
+
+
+
+
+
+
+
+
+
+
+h2.get {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+
+
+p.for {
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+ul.listcontentandicon {
+  line-height: 30px;
+  list-style: none;
+  font-size: 16px;
+}
+ul.listcontentandicon li a {
+  color: gray;
+}
+.total{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+.heigh{
+
+  height: 200px;
+}
+
+
+
+.backbannner {
+
+height: 100px;
+  background-image: url(BACKBANNER/aashta-inner-banner.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+.allboxcontent {
+  background-color: #80808012;
+}
+
+.innnerboxdetails {
+  padding: 10px;
+}
+
+h4.rasoliheading {
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+p.Non {
+  font-size: 17px;
+  color: #808080c7;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.3px;
+}
+
+.vc_custom_heading {
+  margin-bottom: 10px;
+  line-height: 1em;
+  font-family: "Poppins", serif;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+
+p.AtAstha {
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 27px;
+  color: #787878;
+}
+
+.roundcircle {
+
+  margin-right: 20px;
+  color: #00923F;
+  display: inline-flex;
+  font-size: 26px !important;
+}
+li.down {
+
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.boxinnerform {
+  background-color: green;
+  padding: 55px;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Letter {
+  font-size: 12px;
+}
+.upload {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+padding: 3px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.FormGroup {
+  margin-bottom: 15px;
+}
+.filte {
+  background-color: none;
+  border: 1px solid #ffffff;
+  width: 189px;
+  padding: 10px;
+  border-radius: 40px;
+  height: 50px;
+}
+
+.FormButtom {
+  padding: 25px;
+}
+
+
+.form-label {
+  font-weight: 500;
+  color: black;
+  
+}
+.labelgroup {
+  margin-bottom: 30px;
+}
